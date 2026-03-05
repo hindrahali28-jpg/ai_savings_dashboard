@@ -88,7 +88,7 @@ AI_Smart_Savings_Advisor/
 1. Clone or download the repository:
 
 bash
-git clone https://github.com/hindrahali28-jpg/AI_Smart_Savings_Advisor.git
+git clone https://github.com/hindrahali28-jpg/AI_Smart_Savings.git
 
 Navigate to the project folder:
 
@@ -129,6 +129,7 @@ Author
 Hind Rahali
 Interdisciplinary Data Science and Finance Student
 Interested in Data Science, Finance, and Algorithmic Investment Strategies
+
 
 
 
