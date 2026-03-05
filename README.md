@@ -33,10 +33,6 @@ Many individuals struggle to plan their finances and understand how different in
 
 **Users:** Individuals looking to plan their personal finances and understand the impact of investments under uncertainty.  
 
-Example image of the dashboard (replace with your own screenshot):
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="400">
-
 ---
 
 ## Data sources and AI methods
@@ -92,7 +88,7 @@ AI_Smart_Savings_Advisor/
 1. Clone or download the repository:
 
 bash
-git clone https://github.com/yourusername/AI_Smart_Savings_Advisor.git
+git clone https://github.com/hindrahali28-jpg/AI_Smart_Savings_Advisor.git
 
 Navigate to the project folder:
 
@@ -133,6 +129,7 @@ Author
 Hind Rahali
 Interdisciplinary Data Science and Finance Student
 Interested in Data Science, Finance, and Algorithmic Investment Strategies
+
 
 
 
