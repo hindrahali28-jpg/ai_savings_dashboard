@@ -1,4 +1,4 @@
-# project description
+# Project description
 
 # AI Smart Savings & Well-Being Advisor
 
@@ -152,3 +152,4 @@ The dashboard will open in your browser.
 Hind Rahali
 Interdisciplinary Data Science and Finance Student
 Interested in **Data Science, Finance, and Algorithmic Investment Strategies**
+
