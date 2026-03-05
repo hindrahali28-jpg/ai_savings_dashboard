@@ -12,7 +12,8 @@ The project also includes **risk simulation models** that estimate how global co
 This project combines **finance, data science, and behavioral well-being** to help individuals make better financial decisions.
 
 
-## Features
+## Summary 
+### Features:
 
 ### 1. Savings Calculator
 
@@ -152,4 +153,5 @@ The dashboard will open in your browser.
 Hind Rahali
 Interdisciplinary Data Science and Finance Student
 Interested in **Data Science, Finance, and Algorithmic Investment Strategies**
+
 
