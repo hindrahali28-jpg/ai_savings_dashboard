@@ -1,157 +1,138 @@
-# Project description
-
 # AI Smart Savings & Well-Being Advisor
 
-## Project Overview
-
-The **AI Smart Savings & Well-Being Advisor** is an interactive financial planning tool built with **Python and Streamlit**.
-It helps users understand their monthly savings, receive investment suggestions based on risk tolerance, and evaluate their financial well-being.
-
-The project also includes **risk simulation models** that estimate how global conflict scenarios could impact assets such as oil prices and emerging market ETFs.
-
-This project combines **finance, data science, and behavioral well-being** to help individuals make better financial decisions.
-
-
-## Summary 
-### Features:
-
-### 1. Savings Calculator
-
-Users input:
-
-* Monthly income
-* Monthly expenses
-
-The app calculates estimated monthly savings.
-
-### 2. Investment Allocation
-
-Based on risk tolerance (Low / Medium / High), the app suggests an investment portfolio allocation.
-
-Example:
-
-Low Risk:
-
-* Bonds
-* Stocks
-* Cash
-
-Medium Risk:
-
-* Balanced portfolio
-
-High Risk:
-
-* Higher stock exposure.
-
-### 3. Financial Well-Being Score
-
-A simple financial stress model estimates financial well-being based on the relationship between income and expenses.
-
-Higher scores indicate stronger financial stability.
-
-### 4. Global Conflict Risk Simulation
-
-The project simulates how assets might behave under different geopolitical conflict levels:
-
-* Low conflict
-* Medium conflict
-* High conflict
-
-Assets simulated:
-
-* Oil prices
-* Emerging market ETFs
-
-### 5. Data Visualization
-
-The app generates visual charts to help users understand projected portfolio changes under different risk scenarios.
+Final project for the Building AI course
 
 ---
 
-## Technologies Used
+## Summary
 
-* Python
-* Streamlit
-* Matplotlib
-* Financial modeling logic
-* Risk simulation
+The **AI Smart Savings & Well-Being Advisor** is an interactive financial planning tool built with **Python and Streamlit**. It helps users understand monthly savings, receive investment suggestions based on risk tolerance, and evaluate their financial well-being. It also includes risk simulations for assets under global conflict scenarios.  
+
+---
+
+## Background
+
+Many individuals struggle to plan their finances and understand how different investment strategies affect their wealth. Common problems include:
+
+* Not knowing how much they can save each month
+* Uncertainty about investment allocations based on risk
+* Lack of awareness of financial stress and well-being
+* Difficulty predicting portfolio outcomes under uncertain global events  
+
+**Motivation:** As someone interested in finance and data science, I wanted to build a tool that combines **financial calculations, risk simulations, and well-being assessment** to help users make better-informed decisions.
+
+---
+
+## How is it used?
+
+1. **Input monthly income and expenses** to calculate estimated savings.  
+2. **Select risk tolerance** (Low / Medium / High) to get investment allocation suggestions.  
+3. **View financial well-being score** based on income and expenses.  
+4. **Simulate portfolio performance** under different global conflict levels (Low, Medium, High).  
+5. **Visualize results** with charts to understand potential portfolio changes.
+
+**Users:** Individuals looking to plan their personal finances and understand the impact of investments under uncertainty.  
+
+Example image of the dashboard (replace with your own screenshot):
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="400">
+
+---
+
+## Data sources and AI methods
+
+- **Data sources:** User-provided inputs (income, expenses) and simulated asset prices.  
+- **AI / Methods:**  
+  - Risk simulation functions for different conflict levels  
+  - Financial well-being scoring  
+  - Investment allocation logic based on risk tolerance  
+  - Optional: future savings prediction via simple ML model  
+
+---
+
+## Challenges
+
+- Does not include real market data (currently uses simulated values).  
+- Simplified financial stress model; does not account for all real-life factors.  
+- Ethical considerations: financial advice should not replace professional guidance.  
+- Limited to a few asset types (oil, ETFs, bonds, crypto).
+
+---
+
+## What next?
+
+Potential improvements to grow the project:
+
+* Integrate real financial market data via APIs  
+* Add machine learning for investment prediction  
+* Improve financial well-being modeling  
+* Add user account tracking and persistent data  
+* Expand asset types (ETF and stock database)  
 
 ---
 
 ## Project Structure
 
-AI_Smart_Savings_Advisor/
 
-app.py → Main Streamlit dashboard
-finance_logic.py → Savings + portfolio allocation logic
-wellbeing.py → Financial stress scoring model
-risk_simulation.py → Investment simulation under conflict scenarios
-README.md → Project documentation
-venv/ → Python virtual environment
+AI_Smart_Savings_Advisor/
+│
+├─ app.py # Main Streamlit dashboard
+├─ finance_logic.py # Savings & portfolio allocation logic
+├─ wellbeing.py # Financial stress scoring model
+├─ risk_simulation.py # Investment simulation under conflict scenarios
+├─ ml_model.py # Future savings prediction model
+├─ README.md # Project documentation
+└─ venv/ # Python virtual environment (ignored)
+
 
 ---
 
 ## How to Run the Project
 
-### 1. Clone or download the repository
+1. Clone or download the repository:
 
-### 2. Navigate to the project folder
+bash
+git clone https://github.com/yourusername/AI_Smart_Savings_Advisor.git
 
-```
+Navigate to the project folder:
+
 cd AI_Smart_Savings_Advisor
-```
 
-### 3. Create a virtual environment
+Create a virtual environment:
 
-```
 python -m venv venv
-```
 
-### 4. Activate the environment
+Activate the environment:
 
 Windows:
 
-```
 venv\Scripts\activate
-```
 
 Mac/Linux:
 
-```
 source venv/bin/activate
-```
 
-### 5. Install dependencies
+Install dependencies:
 
-```
 pip install streamlit matplotlib
-```
 
-### 6. Run the application
+Run the application:
 
-```
 streamlit run app.py
-```
+Acknowledgments
 
-The dashboard will open in your browser.
+Inspired by personal finance and data science projects
 
----
+UI template and project guide from Reaktor Innovations & University of Helsinki
 
-## Future Improvements
+Example image: Sleeping Cat on Her Back by Umberto Salvagnin
+ / CC BY 2.0
 
-* Add real financial market data (API integration)
-* Add machine learning for investment prediction
-* Improve financial well-being modeling
-* Add user account tracking
-* Add ETF and stock database
-
----
-
-## Author
+Author
 
 Hind Rahali
 Interdisciplinary Data Science and Finance Student
-Interested in **Data Science, Finance, and Algorithmic Investment Strategies**
+Interested in Data Science, Finance, and Algorithmic Investment Strategies
+
 
 
